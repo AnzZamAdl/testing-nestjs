@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/AnzZamAdl/testing-nestjs.git'
+                git branch: 'main', url: 'https://github.com/AnzZamAdl/testing-nestjs.git'
             }
         }
 
